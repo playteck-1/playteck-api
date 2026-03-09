@@ -1,16 +1,15 @@
 {
   "name": "playteck-api",
   "version": "1.0.0",
-  "description": "Play Store scraper API para PlayTeck Theme",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "google-play-scraper": "^9.1.0",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "google-play-scraper": "^9.1.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": "18.x"
   }
 }
